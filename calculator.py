@@ -10,9 +10,16 @@ class Calculator:
     def add(self):
         return self.first_val + self.second_val
 
+    def sub(self):
+        return self.first_val - self.second_val
+
 
 if __name__ == "__main__":
 
-    calc = Calculator(2, 3)
+    calc = Calculator(7, 5)
+    
     added_val = calc.add()
-    prit(added_val)
+    print(added_val)
+
+    sub_val = calc.sub()
+    print(sub_val)
